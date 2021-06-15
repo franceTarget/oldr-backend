@@ -9,7 +9,7 @@ import tk.mybatis.spring.annotation.MapperScan;
 
 @SpringBootApplication
 @ComponentScan("com.ren")
-@MapperScan("com.ren.wwzq.dao")
+@MapperScan("com.ren.oldr.dao")
 public class AppStarter {
 
     private static ApplicationContext context = null;
